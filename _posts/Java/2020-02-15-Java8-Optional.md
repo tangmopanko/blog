@@ -1,14 +1,12 @@
 ---
 title: "[Java8] Optional"
-layout: categories
-permalink: /categories/
+layout: posts
 excerpt: "자바8 옵션널에 대해서"
 search: true
 categories:
   - Java
 tags:
   - 자바
-last_modified_at: 2018-07-14T09:24:00+09:00
 ---
 ## JAVA8, null 대신 Optional
 
