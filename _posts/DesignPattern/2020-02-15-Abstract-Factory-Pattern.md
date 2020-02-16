@@ -117,6 +117,6 @@ public class App {
 }
 ```
 
-![abstact_factory](/assets/images/dsnptn/abstract-factory.png)
+![abstact_factory](/blog/assets/images/dsnptn/abstract-factory.png)
 
 
