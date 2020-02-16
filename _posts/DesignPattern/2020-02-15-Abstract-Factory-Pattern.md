@@ -117,6 +117,6 @@ public class App {
 }
 ```
 
-![abstact_factory](https://tangmopanko.github.io/blog/assets/images/dsnptn/abstract-factory.png"pattern")
+![abstact_factory](/assets/images/dsnptn/abstract-factory.png)
 
 
