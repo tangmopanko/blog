@@ -14,7 +14,8 @@ tags:
 
 ****
 
-###### **하나의 인터페이스가 다른 클라이언트에서 사용될때 중간어댑터를 두어 작동하도록 설계한다**
+###### 인터페이스를 사용하는 클라이언트에 대해 다른 인터페이스를 사용시 호환성을 위해 어댑터패턴을 사용한다. 
+
 
 ```java
 //스파클링은 톡톡튀는 탄산감을 가지고있다.
@@ -46,6 +47,7 @@ public class Dry {
     }
 }
 //텁텁한맛 어댑터용 객체는 스파클링을 상속받아 구현시 feeToktok객체에 dry의 기능을 주입한다.
+//DryAdapter는 Sparkling interface의 Sub이며 feeToktok을 override하여 내부에 기능을 주입한다. (dry)
 public class DryAdapter implements Sparkling {
     private Dry dry;
 
