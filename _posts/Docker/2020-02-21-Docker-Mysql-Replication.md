@@ -1,13 +1,11 @@
 ---
-title: "[Docker] Mysql Replication "
+title: "Mysql Replication "
 layout: posts
 excerpt: "Docker을 이용한 Mysql Replication"
 search: true
 categories:
-  - Docker
   - Mysql
 tags:
-  - 도커
   - Mysql
 ---
 
@@ -66,6 +64,4 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ![rep](/blog/assets/images/docker/mysql_rep_1.png)
 
 ![rep](/blog/assets/images/docker/mysql_rep_2.png)
-
-![rep](/blog/assets/images/docker/mysql_rep_3.png)
 
