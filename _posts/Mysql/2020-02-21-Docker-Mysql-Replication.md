@@ -5,13 +5,13 @@ excerpt: "Docker을 이용한 Mysql Replication"
 search: true
 categories:
   - Mysql
-tags:
+tags: 
   - Mysql
 ---
 
 ##### 어떻게 사용했는지?
 
-- 이전 회사에서 운용시 master 1대 , slave 3대로 운영을 하였다.  slave1은 Scalability용으로 App서버의 읽기를 담당하였고, slave2는 admin, slave3는 통계디비로 운용하였다. 이는 Scalability, Data Security/Backup / Analytics에 해당한다. 
+- 이전 회사에서 운용시 master 1대 , slave 3대로 구성 하였다.  slave1은 Scalability용으로 App서버의 읽기를 담당하였고, slave2는 admin, slave3는 통계디비로 운용하였다. 이는 Scalability, Data Security/Backup / Analytics에 해당한다. 
 
 ##### 참고
 
