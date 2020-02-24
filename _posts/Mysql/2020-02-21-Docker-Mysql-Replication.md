@@ -22,6 +22,7 @@ tags:
 - https://wiki.ubuntu-kr.org/index.php/MySQL_Replication
 
 - https://github.com/vbabak/docker-mysql-master-slave
+- https://whiterussian.tistory.com/44 
 
 ##### Mysql Replication? 
 
@@ -49,13 +50,20 @@ Replication을 사용시 이점
 
 ```java
 git clone https://github.com/vbabak/docker-mysql-master-slave.git
-
+/** 
+* https://whiterussian.tistory.com/44 
+* 테이블및 스키마단위로 replicaton셋팅가능. 
+* master, slave conf 폴더안에 mysql.conf.cnf 수정 -> binlog_do_db = 스키마명. 
+**/
 ./build.sh
 
 ➜ docker-mysql-master-slave git:(master) docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
 7e91c3a2b545        mysql:5.7           "docker-entrypoint.s…"   About an hour ago   Up 36 minutes       33060/tcp, 0.0.0.0:5506->3306/tcp   mysql_slave
 56061af31a19        mysql:5.7           "docker-entrypoint.s…"   About an hour ago   Up About an hour    33060/tcp, 0.0.0.0:4406->3306/tcp   mysql_master
+  
+// sample data import.  
+git clone https://github.com/datacharmer/test_db.git
 
 ```
 
@@ -64,4 +72,8 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ![rep](/blog/assets/images/docker/mysql_rep_1.png)
 
 ![rep](/blog/assets/images/docker/mysql_rep_2.png)
+
+
+
+
 
