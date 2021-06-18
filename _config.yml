@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" #"dark"  "default" "air", "aqua", "contrast", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ohm84's Blog"
+title                    : "tangmopan_kor's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyeong Min"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "ohm84"
+  name             : "hyeongmeme"
   avatar           : "/assets/images/profile_bio.jpeg"
-  bio              : "Backend Developer"
+  bio              : "Backend Developer + Devops"
   location         : "Seoul, Republic of Korea"
   email            : "tangmopanko@gmail.com"
   links:
@@ -118,7 +118,7 @@ author:
       url: "https://github.com/tangmopanko"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/tangmopanko"
+      url: "https://instagram.com/hyeongmeme"
    # - label: "Rocketpunch"
    #   icon: "fab fa-rocket" 
    #   url: "https://www.rocketpunch.com/@dayhap21"
